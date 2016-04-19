@@ -1,0 +1,14 @@
+{
+  "name": "fcc_image_abstraction_search_layer",
+  "version": "0.0.0",
+  "description": "fcc-image abstraction search layer",
+  "main": "server.js",
+  "repository": "",
+  "author": "Joel C <joel@whatsjoeldoing.com>",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "express": "^4.13.4",
+    "mongodb": "^2.1.16",
+    "request": "^2.69.0"
+  }
+}

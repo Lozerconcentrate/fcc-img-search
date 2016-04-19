@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+}
+
+.tag {
+    color: red;
+}
+
+.query {
+    color: green;
+}
+
+.page {
+    color: blue;
+}
+
+.imp {
+    font-weight: bold;
+}
