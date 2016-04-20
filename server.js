@@ -7,7 +7,7 @@ var routes = require('./app/routes/index.js');
 
 var app = express();
 
-mongo.connect('mongodb://localhost:27017/search', (err, db) => {
+mongo.connect(process.env.MONGO_URI + 'search', (err, db) => {
     
     if (err) {
         throw new Error('MongoDB failed to connect! Err: ' + err);
