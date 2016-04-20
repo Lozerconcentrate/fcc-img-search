@@ -1,9 +1,12 @@
 {
   "name": "fcc_image_abstraction_search_layer",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "engines": {
+    "node": "4.1.1"
+  },
   "description": "fcc-image abstraction search layer",
   "main": "server.js",
-  "repository": "",
+  "repository": "https://github.com/Lozerconcentrate/fcc-img-search",
   "author": "Joel C <joel@whatsjoeldoing.com>",
   "dependencies": {
     "dotenv": "^2.0.0",

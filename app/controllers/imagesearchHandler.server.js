@@ -1,7 +1,7 @@
 'use strict';
 
 var url = require('url');
-var auth = require(process.cwd() + '/auth.js');
+var auth = require(process.cwd() + '/app/config/auth.js');
 var https = require('https');
 var resHandler = require(process.cwd() + '/app/controllers/responseHandler.server.js');
 var HistHandler = require(process.cwd() + '/app/controllers/historyHandler.server');
