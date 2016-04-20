@@ -20,7 +20,7 @@ mongo.connect('mongodb://localhost:27017/search', (err, db) => {
 
     routes(app, db);
 
-    app.listen(8080, () => {
+    app.listen(process.env.PORT, () => {
       console.log('Node.js listening on port 8080...');
    });
 
