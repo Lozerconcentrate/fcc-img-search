@@ -1,6 +1,6 @@
 "use strict";
 
-var dotenv = require('dotenv').load();
+var dotenv = require('dotenv').config({silent: true});
 
 module.exports = {
     "imgur": {
